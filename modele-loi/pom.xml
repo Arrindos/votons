@@ -7,14 +7,14 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>fr.democratie.systeme.votons</groupId>
-	<artifactId>modele-citoyen</artifactId>
-	<description>Représentation d'un citoyen dans le système de vote</description>
+	<artifactId>modele-loi</artifactId>
+
 
 	<dependencies>
 		<dependency>
 			<groupId>javax</groupId>
 			<artifactId>javaee-api</artifactId>
- 			<scope>provided</scope>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 </project>

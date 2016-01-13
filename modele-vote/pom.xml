@@ -1,11 +1,28 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>fr.democratie.systeme</groupId>
-    <artifactId>votons</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-  </parent>
-  <groupId>fr.democratie.systeme.votons</groupId>
-  <artifactId>modele-vote</artifactId>
-  <description>Représentation du modele de vote</description>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>fr.democratie.systeme</groupId>
+		<artifactId>votons</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<groupId>fr.democratie.systeme.votons</groupId>
+	<artifactId>modele-vote</artifactId>
+	<description>Représentation du modele de vote</description>
+
+	<dependencies>
+		<!-- dependances inter modules -->
+		<dependency>
+			<groupId>fr.democratie.systeme.votons</groupId>
+			<artifactId>modele-loi</artifactId>
+			<version>0.0.1-SNAPSHOT</version> 
+		</dependency>
+		<!-- dependances interfaces java specifications -->
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+
 </project>
